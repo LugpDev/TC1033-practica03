@@ -22,7 +22,7 @@ void Coleccion::listarVideojuegos()
     cout << "================================" << endl;
 
     cout << "Título: " << videojuego.getTitulo() << endl;
-    cout << "Año: " << videojuego.getAnioDeLanzamiento() << endl;
+    cout << "Año: " << videojuego.getAnio() << endl;
     cout << "Género: " << videojuego.getGenero() << endl;
     cout << "================================" << endl;
   }

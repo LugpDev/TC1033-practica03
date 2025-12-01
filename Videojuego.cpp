@@ -27,7 +27,7 @@ string Videojuego::getGenero()
   return genero;
 }
 
-int Videojuego::getAnioDeLanzamiento()
+int Videojuego::getAnio()
 {
   return anioDeLanzamiento;
 }
@@ -42,7 +42,7 @@ void Videojuego::setGenero(string nuevoGenero)
   genero = nuevoGenero;
 }
 
-void Videojuego::setAnioDeLanzamiento(int nuevoAnio)
+void Videojuego::setAnio(int nuevoAnio)
 {
   anioDeLanzamiento = nuevoAnio;
 }

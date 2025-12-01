@@ -18,11 +18,11 @@ public:
 
   string getTitulo();
   string getGenero();
-  int getAnioDeLanzamiento();
+  int getAnio();
 
   void setTitulo(string nuevoTitulo);
   void setGenero(string nuevoGenero);
-  void setAnioDeLanzamiento(int nuevoAnio);
+  void setAnio(int nuevoAnio);
 };
 
 #endif // __VIDEOJUEGO_H__
